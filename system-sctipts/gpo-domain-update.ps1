@@ -8,4 +8,10 @@
 # Run powershell as admin
 # Add windows capability comdlet
 
-Get-ADComputer -Filter *  | Foreach-Object {Invoke-GPUpdate -Computer $_.name -Force -RandomDelayInMinutes 60}
+# TROUBLESHOOTING
+# Make sure firewall that "Remote Scheduled Tasks Management (RPC)" is enabled
+
+Get-ADComputer -Filter * | ForEach-Object {
+     Invoke-GPUpdate -Computer $_.name -Force -RandomDelayInMinutes 30
+}
+
