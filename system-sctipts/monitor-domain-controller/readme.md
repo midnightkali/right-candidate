@@ -5,8 +5,8 @@
 > Install-WindowsFeature RSAT-ADDS
 
 ## INSTRUCTIONS
-> Run powershell as admin
-> Install RSAT-ADDS
+>- Run powershell as admin
+> - Install RSAT-ADDS
 > Configure the mailserver to allow E-Mails from the server you are running the script
 
 ## TROUBLESHOOTING
