@@ -1,8 +1,8 @@
-# DEFINITION
-## Constantly monitors the uptime status of the domain controllers and sends an e-mail to the administrator / administrators incase of a failed ping.
+## DEFINITION
+> Constantly monitors the uptime status of the domain controllers and sends an e-mail to the administrator / administrators incase of a failed ping.
 
-# REQUIREMENTS
-## Install-WindowsFeature RSAT-ADDS
+## REQUIREMENTS
+> Install-WindowsFeature RSAT-ADDS
 
 # INSTRUCTIONS
 ## Run powershell as admin
