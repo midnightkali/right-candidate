@@ -5,9 +5,9 @@
 > Install-WindowsFeature RSAT-ADDS
 
 ## INSTRUCTIONS
->- Run powershell as admin
+> - Run powershell as admin
 > - Install RSAT-ADDS
-> Configure the mailserver to allow E-Mails from the server you are running the script
+> - Configure the mailserver to allow E-Mails from the server you are running the script
 
 ## TROUBLESHOOTING
 > Make sure in the firewall the the "File and Printer Sharing (Echo Request ICMPv4-In) is enabled
