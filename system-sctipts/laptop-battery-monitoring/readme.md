@@ -1,5 +1,6 @@
 ## DEFINITION
-> Monitors the battery of a laptop
+> Monitors the remaining battery of a laptop.
+> If batteries are not detected it will output an error.
 
 ## REQUIREMENTS
 > A laptop computer
