@@ -10,6 +10,10 @@ $batteryLevel = $battData.BatteryReport.Batteries | ForEach-Object {
     }
 }
 
-if (!$BatteryStatus) {
+if (!$batteryStatus) {
     Write-Host "Are you sure your laptop has batteries? This wont work with desktop computers"
     }
+
+foreach ($battery in $batteryStatus) {
+
+}
