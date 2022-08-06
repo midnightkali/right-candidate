@@ -7,8 +7,6 @@
 
 ## INSTRUCTIONS
 > - Run powershell as admin
-> - 
-> - 
 
 ## TROUBLESHOOTING
-> 
+> Make sure the device you are using has batteries. Will not work with desktop computers.
