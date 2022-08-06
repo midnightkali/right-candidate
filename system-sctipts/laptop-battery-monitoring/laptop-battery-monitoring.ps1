@@ -1,1 +1,2 @@
-powercfg /batteryreport /XML /OUTPUT "batteryreport.xml"
+powercfg /batteryreport /XML /OUTPUT "batterydata.xml"
+[xml]$battData = Get-Content "batterydata.xml"
