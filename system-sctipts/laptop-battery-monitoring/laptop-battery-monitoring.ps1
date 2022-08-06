@@ -3,10 +3,10 @@ powercfg /batteryreport /XML /OUTPUT "batteryreport.xml"
 
 $batteryLevel = $battData.BatteryReport.Batteries | ForEach-Object {
     [PSCustomObject]@{
-    DesignCapacity = $_.Battery.DesignCapacity
-    FullChargeCapacity = $_.Battery.FullChargeCapacity
-    CycleCount = $_.Battery.CycleCount
-    Id = $_.Battery.id
+    designCapacity = $_.Battery.DesignCapacity
+    fullChargeCapacity = $_.Battery.FullChargeCapacity
+    cycleCount = $_.Battery.CycleCount
+    id = $_.Battery.id
     }
 }
 
