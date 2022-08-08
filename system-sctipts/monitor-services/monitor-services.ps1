@@ -19,7 +19,10 @@ while($activeConnection -eq 1){
         if($checkService.Status -eq $service.DesiredStatus){
             Write-Host "All are running OK!"
         } else{
-            Send-MailMessage -SmtpServer $smtpServer -Subject $mailSubject -Body $mailBody -To $admin_email -From $mailAlert
+            Send-MailMessage -From $mailAlert -To $admin_email -SmtpServer $smtpServer 
+            -Subject $mailSubject 
+            -Body $mailBody 
+            
         }
         
         Start-Sleep $timer    
