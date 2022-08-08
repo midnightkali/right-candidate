@@ -3,7 +3,7 @@ $services = Import-Csv $dirFolder'test.csv'
 [bool]$activeConnection = 1
 $timer = 240
 
-$smtpServer = 172.16.5.103
+$smtpServer = smtp.pm.local
 $mailAdmin = "patmagpantay@pm.local"
 $mailAlert = "mission-control@pm.local"
 $mailBody = ""
