@@ -1,7 +1,7 @@
 $dirFolder = "C:\promedica\"
 $services = Import-Csv $dirFolder'test.csv'
 [bool]$activeConnection = 1
-$timer = 300
+$timer = 240
 
 $smtpServer = 172.16.5.103
 $mailAdmin = "patmagpantay@pm.local"
@@ -19,11 +19,10 @@ while($activeConnection -eq 1){
         if($checkService.Status -eq $service.DesiredStatus){
             Write-Host "All are running OK!"
         } else{
-            Write-Host "ELSE IS WORKING"
+            Send-MailMessage -SmtpServer $smtpServer -Subject $mailSubject -Body $mailBody -To $admin_email -From $mailAlert
         }
-            
+        
+        Start-Sleep $timer    
 
     }
 } 
-
-
