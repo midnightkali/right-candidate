@@ -3,4 +3,10 @@
 
 Hi team! I'm Patrick Magpantay and I am applying for the Monitoring Engineer position.
 
-Here are some of the work I have done over the weekends that use powershell. (and 1 bash script)
+Powershell for Active Directory
+Powershell for Domain Controller
+
+Powershell for monitoring using XML
+Powershell for monitoring using CSV
+
+Bash Script
